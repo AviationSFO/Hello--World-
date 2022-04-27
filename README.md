@@ -3,4 +3,4 @@ Hi there! This is my first ever unity project! It is a simple platformer with en
 # Installation
 ```curl
 git clone github.com/AviationSFO/Hello-Unity/
-bash```
+```
