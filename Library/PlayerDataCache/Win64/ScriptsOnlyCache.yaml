@@ -12,11 +12,14 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     Unity.VisualScripting.Core.dll:
     - Unity.VisualScripting.Variables
     Unity.VisualScripting.Flow.dll:
@@ -32,7 +35,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -64,11 +66,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
-    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuClick
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: MenuClick
     methodName: PlayGame
@@ -105,31 +109,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3472}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 4420}
+      Script: {instanceID: 4296}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 5374}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 5812}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5960}
+      Script: {instanceID: 5836}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6004}
     - Class: 114
-      Script: {instanceID: 6344}
+      Script: {instanceID: 6220}
     - Class: 114
-      Script: {instanceID: 6642}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 7362}
+      Script: {instanceID: 7238}
     - Class: 114
-      Script: {instanceID: 7658}
+      Script: {instanceID: 7534}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -170,29 +174,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2730}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2822}
     - Class: 114
-      Script: {instanceID: 3226}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 5506}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 5812}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 6284}
+      Script: {instanceID: 5836}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 6160}
+    - Class: 114
+      Script: {instanceID: 7000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

@@ -1384,7 +1384,7 @@
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "DefaultCompany\nHello-Unity",
+      "WriteTextFilePayload": "AviationSFO\nHello-Unity",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"

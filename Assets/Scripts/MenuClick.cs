@@ -9,4 +9,8 @@ public class MenuClick : MonoBehaviour
     {
         SceneManager.LoadScene("GameLevel");
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
