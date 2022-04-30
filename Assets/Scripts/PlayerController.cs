@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -85,6 +87,15 @@ public class PlayerController : MonoBehaviour
         {
             isDead = true;
             deathObject.text = "You Win!";
+            if(SceneManager.GetActiveScene().buildIndex < 2) {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
+
+
         }
     }
     void OnTriggerEnter(Collider other)
